@@ -2,21 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ButtonEvents : MonoBehaviour
 {
+    Animator anim;
     int seviye;
     Button button;
+    AudioSource audioSource;
     private void Start()
     {
+        anim = GetComponent<Animator>();
         button = GetComponent<Button>();
-        button.interactable = false;
+        audioSource = GetComponent<AudioSource>();
 
-        GameObject.Find("Seviye" + 1).GetComponent<Button>().interactable = true;
+        if (SceneManager.GetActiveScene().name == " PlayMenu")
+        {
+            button.interactable = false;
+            GameObject.Find("Seviye" + 1).GetComponent<Button>().interactable = true;
+
+        }
 
         for (int i = 2; i < 10; i++)
         {
-            if (PlayerPrefs.HasKey("seviye"))
+            if (PlayerPrefs.HasKey("seviye" + i))
             {
                 PlayerPrefs.GetInt("seviye", i);
                 GameObject.Find("Seviye" + i).GetComponent<Button>().interactable = true;
@@ -25,19 +34,27 @@ public class ButtonEvents : MonoBehaviour
         }
 
     }
-    public void PointerEnter()
+
+    public void PointerEnter(int i)
     {
         if (button.interactable)
         {
-            transform.localScale = new Vector2(1f, 1f);
+            anim.SetTrigger("buton" + i);
         }
     }
 
-    public void PointerExit()
+    public void PointerExit(int i)
     {
-        transform.localScale = new Vector2(1f, 1f);
+        if (SceneManager.GetActiveScene().name == "PlayMenu" && button.interactable)
+        {
+            anim.SetTrigger("buton" + i + "exit");
+        }
+
     }
 
-
+    public void AudioSource()
+    {
+        audioSource.Play();
+    }
 }
 

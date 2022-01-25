@@ -24,11 +24,8 @@ public class PlayMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Level" + (i + 1));
 
-        for (int j = 1; j <= i; j++)
-        {
-            PlayerPrefs.SetInt("seviye", i + i);
+        PlayerPrefs.SetInt("seviye" + i + 1, 1);
 
-        }
     }
 
 }
