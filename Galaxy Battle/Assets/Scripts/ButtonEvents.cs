@@ -41,23 +41,10 @@ public class ButtonEvents : MonoBehaviour
 
     }
 
-    public void PointerExit(int i)
-    {
-        if (SceneManager.GetActiveScene().name == "PlayMenu" && button.interactable)
-        {
-            anim.SetTrigger("buton" + i + "exit");
-        }
-
-    }
 
     public void OynaButtonAnim()
     {
         anim.SetTrigger("oyna");
-    }
-
-    public void OynaButtonExitAnim()
-    {
-        anim.SetTrigger("oynaexit");
     }
 
     public void CikisButtonAnim()
@@ -65,9 +52,5 @@ public class ButtonEvents : MonoBehaviour
         anim.SetTrigger("cikis");
     }
 
-    public void CikisButonExitAnim()
-    {
-        anim.SetTrigger("cikisexit");
-    }
 }
 

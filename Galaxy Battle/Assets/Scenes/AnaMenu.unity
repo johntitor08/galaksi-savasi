@@ -679,22 +679,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 753979091}
-          m_TargetAssemblyTypeName: ButtonEvents, Assembly-CSharp
-          m_MethodName: CikisButonExitAnim
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1232215274
 GameObject:
   m_ObjectHideFlags: 0
@@ -1149,22 +1133,6 @@ MonoBehaviour:
         - m_Target: {fileID: 1903013453}
           m_TargetAssemblyTypeName: ButtonEvents, Assembly-CSharp
           m_MethodName: OynaButtonAnim
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1903013453}
-          m_TargetAssemblyTypeName: ButtonEvents, Assembly-CSharp
-          m_MethodName: OynaButtonExitAnim
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
