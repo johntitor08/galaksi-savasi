@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: 47e5004eb6f13ee4ab95f84197bed9b9
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4484340021111120017
+    second: namk_kemal_animasyonlar_1
+  - first:
+      213: 2511763149860172401
+    second: namk_kemal_animasyonlar_2
+  - first:
+      213: 8540546099141999689
+    second: namk_kemal_animasyonlar_3
+  - first:
+      213: -3980161822251441077
+    second: namk_kemal_animasyonlar_4
+  - first:
+      213: 5833713327821011739
+    second: namk_kemal_animasyonlar_5
+  - first:
+      213: 3618943652309731001
+    second: namk_kemal_animasyonlar_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +59,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +93,180 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: namk_kemal_animasyonlar_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 251
+        width: 116
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315f4e21d2064a330800000000000000
+      internalID: 3721204938821661971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: namk_kemal_animasyonlar_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 251
+        width: 97
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f9a95828c64c1c0800000000000000
+      internalID: -4484340021111120017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: namk_kemal_animasyonlar_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 116
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172f453e6439bd220800000000000000
+      internalID: 2511763149860172401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: namk_kemal_animasyonlar_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 127
+        width: 116
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cf43b6d6d168670800000000000000
+      internalID: 8540546099141999689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: namk_kemal_animasyonlar_4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 246
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44a12419ef93c8c0800000000000000
+      internalID: -3980161822251441077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: namk_kemal_animasyonlar_5
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 3
+        width: 116
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bbb320d5385f050800000000000000
+      internalID: 5833713327821011739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: namk_kemal_animasyonlar_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 116
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6831ae312193230800000000000000
+      internalID: 3618943652309731001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
