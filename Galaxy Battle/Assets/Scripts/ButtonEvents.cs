@@ -7,16 +7,13 @@ using UnityEngine.SceneManagement;
 public class ButtonEvents : MonoBehaviour
 {
     Animator anim;
-    int seviye;
     Button button;
-    AudioSource audioSource;
     private void Start()
     {
         anim = GetComponent<Animator>();
         button = GetComponent<Button>();
-        audioSource = GetComponent<AudioSource>();
 
-        if (SceneManager.GetActiveScene().name == " PlayMenu")
+        if (SceneManager.GetActiveScene().name == "PlayMenu")
         {
             button.interactable = false;
             GameObject.Find("Seviye" + 1).GetComponent<Button>().interactable = true;
@@ -37,10 +34,11 @@ public class ButtonEvents : MonoBehaviour
 
     public void PointerEnter(int i)
     {
-        if (button.interactable)
+        if (SceneManager.GetActiveScene().name == "PlayMenu" && button.interactable)
         {
             anim.SetTrigger("buton" + i);
         }
+
     }
 
     public void PointerExit(int i)
@@ -52,9 +50,24 @@ public class ButtonEvents : MonoBehaviour
 
     }
 
-    public void AudioSource()
+    public void OynaButtonAnim()
     {
-        audioSource.Play();
+        anim.SetTrigger("oyna");
+    }
+
+    public void OynaButtonExitAnim()
+    {
+        anim.SetTrigger("oynaexit");
+    }
+
+    public void CikisButtonAnim()
+    {
+        anim.SetTrigger("cikis");
+    }
+
+    public void CikisButonExitAnim()
+    {
+        anim.SetTrigger("cikisexit");
     }
 }
 
